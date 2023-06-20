@@ -1,0 +1,40 @@
+.banner__news {
+    background: var(--branco);
+    padding: 2.5em 2em;
+}
+
+.news__titulo,
+.news__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.news__titulo {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.news__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.cadastro__email {
+    background-color: transparent;
+    border-radius: 1.5em;
+    border: 1px solid var(--azul-escuro);
+    color: var(--azul);
+    padding: 0.8em;
+    width: 100%;
+}
+
+.cadastro__email::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 2.5em;
+    color: var(--azul-escuro);
+    background: url("../assets/Email.svg");
+    background-repeat: no-repeat;
+}

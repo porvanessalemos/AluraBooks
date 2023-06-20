@@ -1,0 +1,46 @@
+.card {
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 0.8em;
+    padding: 1em;
+    display: flex;
+}
+
+.card__descricao {
+    display: flex;   
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0 0 0.5em;
+}
+
+.descricao__titulo {
+    color: var(--laranja);
+    font-weight: 700;    
+}
+
+.descricao__titulo-livro {
+    color: var(--azul-escuro);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.descricao__livro {
+    font-size: 0.8em;
+}
+
+.card__botao {
+    padding: 0.5em;
+}
+
+.botao {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1em;
+    text-decoration: none;
+    margin-top: 1em;
+    text-align: center;
+    font-weight: 700;
+}
