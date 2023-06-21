@@ -38,3 +38,31 @@
     background: url("../assets/Email.svg");
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__news {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cadastro__email {
+        width: 40%;
+        margin-left: 1em;
+    }
+
+    .news__descricao {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .news__titulo {
+        font-size: 1.5em
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__news {
+        padding: 3em 20vw;
+    }
+}

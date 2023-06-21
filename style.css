@@ -3,6 +3,7 @@
 @import url("styles/carrossel.css");
 @import url("styles/topicos.css");
 @import url("styles/news.css");
+@import url("styles/rodape.css");
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
@@ -12,6 +13,10 @@
     --cinza-claro: #E5E5E5;
     --azul-escuro: #002F52;
     --rodape: #F9F9F9;
+    --fonte-secundaria: "Josefin Sans";
+    --preto: #000000;
+    --cinza-escuro: #474646;
+    --cinza: #858585;
 }
 
 body {
@@ -19,12 +24,4 @@ body {
     font-family: var(--fonte-principal);
     font-size: 1em;
     font-weight: 400;
-}
-
-hr {
-    margin: 0;
-}
-footer {
-    background-color: var(--rodape);
-    padding: 2em;
 }
